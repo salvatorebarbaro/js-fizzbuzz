@@ -11,7 +11,7 @@ const grid = document.querySelector("#grid");
 // funzione for con il quale ottimizzeremo la creazione dei quadrati
 for(let i = 0 ; i <= 100 ;i++ )
 {
-    
+    // prima condizione usata per " inserire" fuzzbuzz solo quando ci sono numeri multipli per 3 e 5
     if(i % 5 == 0 && i % 3 == 0)
     {   
         // grid è un oggetto DOM (Document Object Model) che rappresenta un elemento HTML, e innerHTML è una proprietà che restituisce o imposta il markup HTML contenuto all'interno di quell'elemento. sta aggiungendo una nuova <div> con la classe "square" e il testo "buzz" all'interno.
