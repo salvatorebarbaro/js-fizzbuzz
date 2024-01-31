@@ -13,13 +13,13 @@ for(let i = 0 ; i <= 100 ;i++ )
 {
     if( i % 3 == 0)
     {
-        grid.innerHTML += `<div class="square">${i}</div>`
+        grid.innerHTML += `<div class="square">${"fuzz"}</div>`
 
     }
-    else if()
-    {
+    // else if()
+    // {
 
-    }
+    // }
     else
     {
         grid.innerHTML += `<div class="square">${i}</div>`
