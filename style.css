@@ -31,3 +31,35 @@ h1{
     height: 60px;
     border: solid 1px black;
 }
+.rotate
+{
+    animation:rotate 2s infinite;
+}
+@keyframes rotate
+{
+    0% {transform: rotate(0deg) scale(1); }
+    100% {transform: rotate(360deg) scale(1);}
+
+}
+.pulse
+{
+    animation: pulse 2s infinite;
+}
+@keyframes pulse
+{
+    0% {transform: scale(1.5);}
+    50%{transform: scale(1);}
+    100% {transform: scale(1.5);}
+}
+
+.slide
+{
+    animation: slide 2s infinite;
+}
+@keyframes slide
+{
+    0% {transform: translateX(0deg) scale(1);}
+    50%{transform: translateX(15px) scale(1);}
+    100% {transform: translateX(0) scale(1);}
+}
+
