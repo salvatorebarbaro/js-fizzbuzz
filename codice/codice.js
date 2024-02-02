@@ -30,7 +30,7 @@ for(let i = 0 ; i <= 100 ; i++ )
         newelement.style.fontSize= "bold";
         // fine righe di stilizzazione assegnate da js
 
-        newelement.className=("rotate");
+        newelement.classList.add("rotate");
         
 
     }
@@ -45,7 +45,7 @@ for(let i = 0 ; i <= 100 ; i++ )
          newelement.style.fontSize= "bold";
         // fine righe di stilizzazione assegnate da js
 
-        // newelement.className=("pulse");
+         newelement.classList.add=("pulse");
     }
     else if(i % 5 == 0)
     {   
@@ -59,7 +59,7 @@ for(let i = 0 ; i <= 100 ; i++ )
         newelement.style.fontSize= "bold";
         // fine righe di stilizzazione assegnate da js
 
-        newelement.className=("slide");
+        newelement.classList.add("slide");
 
     }
     else
